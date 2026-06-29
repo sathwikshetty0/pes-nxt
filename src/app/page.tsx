@@ -6,7 +6,7 @@ import { Startups } from "@/components/sections/Startups";
 import { Portfolio } from "@/components/sections/Portfolio";
 import { Services } from "@/components/sections/Services";
 import { Programs } from "@/components/sections/Programs";
-import { Testimonial } from "@/components/sections/Testimonial";
+// import { Testimonial } from "@/components/sections/Testimonial";
 import { CTA } from "@/components/sections/CTA";
 import { Footer } from "@/components/sections/Footer";
 import { ScrollToTop } from "@/components/sections/ScrollToTop";
@@ -28,7 +28,7 @@ export default function Home() {
       <Portfolio />
       <Services />
       <Programs />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <CTA />
       <Footer />
       <ScrollToTop />

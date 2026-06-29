@@ -12,6 +12,7 @@ const STARTUPS = [
   { name: "Swaastya", sector: "HealthTech" },
   { name: "LawLite", sector: "LegalTech" },
   { name: "Reshme Siri", sector: "AgriTech" },
+  { name: "0xTeam", sector: "Blockchain Security" },
 ];
 
 function StartupPill({ name, sector }: { name: string; sector: string }) {

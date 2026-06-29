@@ -22,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${jakarta.variable} scroll-smooth`} suppressHydrationWarning>
       <head>
+        <link rel="icon" href="/favicon.png" type="image/png" />
         <script
           dangerouslySetInnerHTML={{
             __html: `

@@ -5,6 +5,8 @@ const STARTUPS = [
   { name: "Syncally", sector: "AI & Productivity", description: "Unified platform integrating code repos, meeting transcripts, and task tools for intelligent knowledge retrieval.", img: "photo-1551434678-e076c223a692" },
   { name: "bloomin.", sector: "Healthcare / MedTech", description: "AI tool converting spoken or handwritten clinical inputs into structured digital medical records.", img: "photo-1576091160399-112ba8d25d1d" },
   { name: "Snapmeet", sector: "Event Technology", description: "Zero-commission event platform with QR-based entry, automated registrations, and secure payments.", img: "photo-1540575467063-178a50c2df87" },
+  { name: "0xTeam", sector: "Blockchain Security", description: "Smart contract audits, DeFi security, penetration testing, and AI-powered vulnerability detection with LEON.", img: "photo-1639762681485-074b7f938ba0" },
+  { name: "Reshme Siri", sector: "AgriTech", description: "Smart silkworm rearing system with movable shelves and automated environmental monitoring for sericulture farming.", img: "photo-1500382017468-9049fed747ef" },
 ];
 
 export function Portfolio() {
@@ -20,7 +22,7 @@ export function Portfolio() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {STARTUPS.map((startup) => (
             <div
               key={startup.name}

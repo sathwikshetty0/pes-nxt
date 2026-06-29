@@ -33,7 +33,7 @@ export function Footer() {
                 incubator@pesce.ac.in
               </a>
             </p>
-            <p className="text-gray-700 dark:text-gray-300 mb-4">Call us: [phone to be added]</p>
+            <p className="text-gray-700 dark:text-gray-300 mb-4">Call us: +91 9448282587 </p>
           </div>
           <div className="flex gap-3">
             <a href="#" aria-label="PES NEXT LinkedIn" className={iconClass}><LinkedInIcon /></a>

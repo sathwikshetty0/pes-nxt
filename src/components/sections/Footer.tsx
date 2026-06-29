@@ -36,8 +36,7 @@ export function Footer() {
             <p className="text-gray-700 dark:text-gray-300 mb-4">Call us: +91 9448282587 </p>
           </div>
           <div className="flex gap-3">
-            <a href="#" aria-label="PES NEXT LinkedIn" className={iconClass}><LinkedInIcon /></a>
-            <a href="#" aria-label="PES NEXT Instagram" className={iconClass}><InstagramIcon /></a>
+            <a href="https://www.linkedin.com/company/pesnext/" target="_blank" rel="noopener noreferrer" aria-label="PES NEXT LinkedIn" className={iconClass}><LinkedInIcon /></a>
           </div>
         </div>
 
@@ -54,8 +53,8 @@ export function Footer() {
             className="mb-6 dark:brightness-0 dark:invert"
           />
           <div className="flex gap-3">
-            <a href="#" aria-label="InUnity LinkedIn" className={iconClass}><LinkedInIcon /></a>
-            <a href="#" aria-label="InUnity Instagram" className={iconClass}><InstagramIcon /></a>
+            <a href="https://www.linkedin.com/company/inunityprivatelimited/" target="_blank" rel="noopener noreferrer" aria-label="InUnity LinkedIn" className={iconClass}><LinkedInIcon /></a>
+            <a href="https://www.instagram.com/inunity.in/" target="_blank" rel="noopener noreferrer" aria-label="InUnity Instagram" className={iconClass}><InstagramIcon /></a>
           </div>
         </div>
       </div>

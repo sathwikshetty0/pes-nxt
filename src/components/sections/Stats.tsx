@@ -12,9 +12,9 @@ interface StatItem {
 
 const STATS: StatItem[] = [
   { value: 9000, suffix: "+", label: "Sq Ft Innovation Space" },
-  { value: 14, suffix: "", label: "Startup Teams Supported" },
-  { value: 2.2, suffix: "L+", prefix: "₹", decimal: true, label: "Seed Grants Disbursed" },
-  { value: 4, suffix: "", label: "Teams Selected for Incubation" },
+  { value: 44, suffix: "+", label: "Total Teams Supported" },
+  { value: 1.09, suffix: "Cr+", prefix: "₹", decimal: true, label: "Grants Disbursed" },
+  { value: 5, suffix: "", label: "Current Incubation Startups" },
 ];
 
 function AnimatedNumber({ item, animate }: { item: StatItem; animate: boolean }) {

@@ -29,8 +29,8 @@ export function Footer() {
           <div className="mt-4">
             <p className="text-gray-700 dark:text-gray-300 mb-2">
               Contact us:{" "}
-              <a href="mailto:info@pesnext.in" className="text-accent hover:underline font-medium">
-                info@pesnext.in
+              <a href="mailto:incubator@pesce.ac.in" className="text-accent hover:underline font-medium">
+                incubator@pesce.ac.in
               </a>
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4">Call us: [phone to be added]</p>
@@ -60,20 +60,23 @@ export function Footer() {
         </div>
       </div>
 
+      {/* Partner logo */}
+      <div className="border-t border-gray-200 dark:border-[#222] py-6">
+        <div className="max-w-content mx-auto px-6 flex items-center justify-center">
+          <Image
+            src="/logos/pes logo 1.svg"
+            alt="PES College of Engineering"
+            width={400}
+            height={100}
+            className="opacity-70 hover:opacity-100 transition-opacity dark:brightness-0 dark:invert"
+          />
+        </div>
+      </div>
+
       {/* Bottom bar */}
       <div className="bg-black/5 dark:bg-[#0a0a0a] py-5">
         <div className="max-w-content mx-auto px-6 flex flex-col sm:flex-row items-center justify-center gap-2 text-sm text-gray-500 dark:text-gray-500">
-          <span>© 2026 PES NEXT.</span>
-          <span className="flex items-center gap-1.5">
-            Powered by
-            <Image
-              src="/logos/powered-by-inunity.png"
-              alt="InUnity"
-              width={60}
-              height={18}
-              className="inline-block dark:brightness-0 dark:invert"
-            />
-          </span>
+          <span>Copyright © 2026 - PES NEXT Innovation and Incubation Centre, Mandya</span>
         </div>
       </div>
     </footer>

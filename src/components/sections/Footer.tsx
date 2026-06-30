@@ -59,7 +59,7 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Partner logo */}
+      {/* Partner logo
       <div className="border-t border-gray-200 dark:border-[#222] py-6">
         <div className="max-w-content mx-auto px-6 flex items-center justify-center">
           <Image
@@ -70,7 +70,7 @@ export function Footer() {
             className="opacity-70 hover:opacity-100 transition-opacity dark:brightness-0 dark:invert"
           />
         </div>
-      </div>
+      </div> */}
 
       {/* Bottom bar */}
       <div className="bg-black/5 dark:bg-[#0a0a0a] py-5">

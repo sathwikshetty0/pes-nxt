@@ -9,15 +9,15 @@ export function About() {
           </h2>
           <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
             PES NEXT Innovation and Incubation Centre is a Section 8 company set
-            up by PES College of Engineering, Mandya, to emphasise Innovation and
+            up by P.E.S College of Engineering, Mandya, to emphasise Innovation and
             Entrepreneurship. Managed in association with InUnity Private Limited,
             the centre supports startups and entrepreneurs emerging from the Mandya
             region to drive community-based innovations for local and global growth.
           </p>
           <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-            The centre currently supports 14 startup teams through its inaugural
-            Ignite Cohort, with more than ₹2.2 Lakh in seed grants disbursed and
-            4 high-potential teams selected for formal incubation.
+            The centre has supported 44+ startup teams through its incubation,
+            with more than ₹1.09cr+ in seed grants disbursed and curently
+            6 high-potential teams are incubated.
           </p>
         </div>
 
